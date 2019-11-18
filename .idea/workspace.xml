@@ -1,8 +1,310 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="450a4146-3c64-4a04-8659-406b97228735" name="Default" comment="">
+    <list default="true" id="450a4146-3c64-4a04-8659-406b97228735" name="Default" comment="aiziet">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/argon.css" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/css/argon.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/argon.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/css/argon.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap/bootstrap-grid.css" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/css/bootstrap/bootstrap-grid.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap/bootstrap-grid.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/css/bootstrap/bootstrap-grid.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap/bootstrap-reboot.css" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/css/bootstrap/bootstrap-reboot.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap/bootstrap-reboot.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/css/bootstrap/bootstrap-reboot.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/css/bootstrap/bootstrap.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/css/bootstrap/bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/brand/blue.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/img/brand/blue.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/brand/creativetim-white-slim.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/img/brand/creativetim-white-slim.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/brand/favicon.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/img/brand/favicon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/brand/white.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/img/brand/white.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/icons/common/github.svg" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/img/icons/common/github.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/icons/common/google.svg" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/img/icons/common/google.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/ill/ill-2.svg" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/img/ill/ill-2.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/theme/img-1-1200x1000.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/img/theme/img-1-1200x1000.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/theme/img-2-1200x1000.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/img/theme/img-2-1200x1000.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/theme/landing.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/img/theme/landing.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/theme/profile.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/img/theme/profile.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/theme/promo-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/img/theme/promo-1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/theme/team-1-800x800.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/img/theme/team-1-800x800.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/theme/team-2-800x800.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/img/theme/team-2-800x800.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/theme/team-3-800x800.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/img/theme/team-3-800x800.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/theme/team-4-800x800.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/img/theme/team-4-800x800.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/argon.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/js/argon.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/argon.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/js/argon.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/argon.scss" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/scss/argon.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/bootstrap/_alert.scss" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/scss/bootstrap/_alert.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/bootstrap/_badge.scss" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/scss/bootstrap/_badge.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/bootstrap/_breadcrumb.scss" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/scss/bootstrap/_breadcrumb.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/bootstrap/_button-group.scss" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/scss/bootstrap/_button-group.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/bootstrap/_buttons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/scss/bootstrap/_buttons.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/bootstrap/_card.scss" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/scss/bootstrap/_card.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/bootstrap/_carousel.scss" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/scss/bootstrap/_carousel.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/bootstrap/_close.scss" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/scss/bootstrap/_close.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/bootstrap/_code.scss" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/scss/bootstrap/_code.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/bootstrap/_custom-forms.scss" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/scss/bootstrap/_custom-forms.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/bootstrap/_dropdown.scss" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/scss/bootstrap/_dropdown.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/bootstrap/_forms.scss" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/scss/bootstrap/_forms.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/bootstrap/_functions.scss" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/scss/bootstrap/_functions.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/bootstrap/_grid.scss" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/scss/bootstrap/_grid.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/bootstrap/_images.scss" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/scss/bootstrap/_images.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/bootstrap/_input-group.scss" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/scss/bootstrap/_input-group.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/bootstrap/_jumbotron.scss" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/scss/bootstrap/_jumbotron.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/bootstrap/_list-group.scss" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/scss/bootstrap/_list-group.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/bootstrap/_media.scss" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/scss/bootstrap/_media.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/bootstrap/_mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/scss/bootstrap/_mixins.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/bootstrap/_modal.scss" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/scss/bootstrap/_modal.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/bootstrap/_nav.scss" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/scss/bootstrap/_nav.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/bootstrap/_navbar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/scss/bootstrap/_navbar.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/bootstrap/_pagination.scss" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/scss/bootstrap/_pagination.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/bootstrap/_popover.scss" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/scss/bootstrap/_popover.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/bootstrap/_print.scss" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/scss/bootstrap/_print.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/bootstrap/_progress.scss" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/scss/bootstrap/_progress.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/bootstrap/_reboot.scss" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/scss/bootstrap/_reboot.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/bootstrap/_root.scss" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/scss/bootstrap/_root.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/bootstrap/_spinners.scss" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/scss/bootstrap/_spinners.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/bootstrap/_tables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/scss/bootstrap/_tables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/bootstrap/_toasts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/scss/bootstrap/_toasts.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/bootstrap/_tooltip.scss" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/scss/bootstrap/_tooltip.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/bootstrap/_transitions.scss" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/scss/bootstrap/_transitions.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/bootstrap/_type.scss" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/scss/bootstrap/_type.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/bootstrap/_utilities.scss" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/scss/bootstrap/_utilities.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/bootstrap/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/scss/bootstrap/_variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/bootstrap/bootstrap-grid.scss" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/scss/bootstrap/bootstrap-grid.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/bootstrap/bootstrap-reboot.scss" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/scss/bootstrap/bootstrap-reboot.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/bootstrap/bootstrap.scss" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/scss/bootstrap/bootstrap.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/bootstrap/mixins/_alert.scss" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/scss/bootstrap/mixins/_alert.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/bootstrap/mixins/_background-variant.scss" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/scss/bootstrap/mixins/_background-variant.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/bootstrap/mixins/_badge.scss" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/scss/bootstrap/mixins/_badge.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/bootstrap/mixins/_border-radius.scss" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/scss/bootstrap/mixins/_border-radius.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/bootstrap/mixins/_box-shadow.scss" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/scss/bootstrap/mixins/_box-shadow.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/bootstrap/mixins/_breakpoints.scss" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/scss/bootstrap/mixins/_breakpoints.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/bootstrap/mixins/_buttons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/scss/bootstrap/mixins/_buttons.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/bootstrap/mixins/_caret.scss" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/scss/bootstrap/mixins/_caret.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/bootstrap/mixins/_clearfix.scss" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/scss/bootstrap/mixins/_clearfix.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/bootstrap/mixins/_deprecate.scss" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/scss/bootstrap/mixins/_deprecate.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/bootstrap/mixins/_float.scss" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/scss/bootstrap/mixins/_float.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/bootstrap/mixins/_forms.scss" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/scss/bootstrap/mixins/_forms.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/bootstrap/mixins/_gradients.scss" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/scss/bootstrap/mixins/_gradients.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/bootstrap/mixins/_grid-framework.scss" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/scss/bootstrap/mixins/_grid-framework.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/bootstrap/mixins/_grid.scss" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/scss/bootstrap/mixins/_grid.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/bootstrap/mixins/_hover.scss" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/scss/bootstrap/mixins/_hover.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/bootstrap/mixins/_image.scss" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/scss/bootstrap/mixins/_image.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/bootstrap/mixins/_list-group.scss" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/scss/bootstrap/mixins/_list-group.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/bootstrap/mixins/_lists.scss" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/scss/bootstrap/mixins/_lists.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/bootstrap/mixins/_nav-divider.scss" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/scss/bootstrap/mixins/_nav-divider.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/bootstrap/mixins/_pagination.scss" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/scss/bootstrap/mixins/_pagination.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/bootstrap/mixins/_reset-text.scss" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/scss/bootstrap/mixins/_reset-text.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/bootstrap/mixins/_resize.scss" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/scss/bootstrap/mixins/_resize.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/bootstrap/mixins/_screen-reader.scss" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/scss/bootstrap/mixins/_screen-reader.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/bootstrap/mixins/_size.scss" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/scss/bootstrap/mixins/_size.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/bootstrap/mixins/_table-row.scss" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/scss/bootstrap/mixins/_table-row.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/bootstrap/mixins/_text-emphasis.scss" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/scss/bootstrap/mixins/_text-emphasis.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/bootstrap/mixins/_text-hide.scss" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/scss/bootstrap/mixins/_text-hide.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/bootstrap/mixins/_text-truncate.scss" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/scss/bootstrap/mixins/_text-truncate.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/bootstrap/mixins/_transition.scss" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/scss/bootstrap/mixins/_transition.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/bootstrap/mixins/_visibility.scss" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/scss/bootstrap/mixins/_visibility.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/bootstrap/utilities/_align.scss" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/scss/bootstrap/utilities/_align.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/bootstrap/utilities/_background.scss" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/scss/bootstrap/utilities/_background.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/bootstrap/utilities/_borders.scss" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/scss/bootstrap/utilities/_borders.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/bootstrap/utilities/_clearfix.scss" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/scss/bootstrap/utilities/_clearfix.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/bootstrap/utilities/_display.scss" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/scss/bootstrap/utilities/_display.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/bootstrap/utilities/_embed.scss" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/scss/bootstrap/utilities/_embed.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/bootstrap/utilities/_flex.scss" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/scss/bootstrap/utilities/_flex.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/bootstrap/utilities/_float.scss" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/scss/bootstrap/utilities/_float.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/bootstrap/utilities/_overflow.scss" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/scss/bootstrap/utilities/_overflow.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/bootstrap/utilities/_position.scss" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/scss/bootstrap/utilities/_position.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/bootstrap/utilities/_screenreaders.scss" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/scss/bootstrap/utilities/_screenreaders.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/bootstrap/utilities/_shadows.scss" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/scss/bootstrap/utilities/_shadows.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/bootstrap/utilities/_sizing.scss" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/scss/bootstrap/utilities/_sizing.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/bootstrap/utilities/_spacing.scss" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/scss/bootstrap/utilities/_spacing.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/bootstrap/utilities/_stretched-link.scss" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/scss/bootstrap/utilities/_stretched-link.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/bootstrap/utilities/_text.scss" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/scss/bootstrap/utilities/_text.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/bootstrap/utilities/_visibility.scss" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/scss/bootstrap/utilities/_visibility.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/bootstrap/vendor/_rfs.scss" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/scss/bootstrap/vendor/_rfs.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/custom/_accordion.scss" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/scss/custom/_accordion.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/custom/_alert.scss" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/scss/custom/_alert.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/custom/_avatar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/scss/custom/_avatar.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/custom/_badge.scss" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/scss/custom/_badge.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/custom/_buttons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/scss/custom/_buttons.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/custom/_card.scss" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/scss/custom/_card.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/custom/_carousel.scss" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/scss/custom/_carousel.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/custom/_close.scss" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/scss/custom/_close.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/custom/_custom-forms.scss" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/scss/custom/_custom-forms.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/custom/_dropdown.scss" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/scss/custom/_dropdown.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/custom/_footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/scss/custom/_footer.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/custom/_forms.scss" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/scss/custom/_forms.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/custom/_functions.scss" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/scss/custom/_functions.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/custom/_global.scss" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/scss/custom/_global.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/custom/_grid.scss" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/scss/custom/_grid.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/custom/_icons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/scss/custom/_icons.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/custom/_input-group.scss" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/scss/custom/_input-group.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/custom/_list-group.scss" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/scss/custom/_list-group.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/custom/_mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/scss/custom/_mixins.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/custom/_modal.scss" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/scss/custom/_modal.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/custom/_nav.scss" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/scss/custom/_nav.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/custom/_navbar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/scss/custom/_navbar.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/custom/_pagination.scss" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/scss/custom/_pagination.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/custom/_popover.scss" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/scss/custom/_popover.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/custom/_progress.scss" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/scss/custom/_progress.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/custom/_reboot.scss" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/scss/custom/_reboot.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/custom/_section.scss" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/scss/custom/_section.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/custom/_separator.scss" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/scss/custom/_separator.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/custom/_type.scss" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/scss/custom/_type.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/custom/_utilities.scss" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/scss/custom/_utilities.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/custom/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/scss/custom/_variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/custom/mixins/_alert.scss" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/scss/custom/mixins/_alert.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/custom/mixins/_background-variant.scss" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/scss/custom/mixins/_background-variant.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/custom/mixins/_badge.scss" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/scss/custom/mixins/_badge.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/custom/mixins/_buttons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/scss/custom/mixins/_buttons.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/custom/mixins/_forms.scss" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/scss/custom/mixins/_forms.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/custom/mixins/_icon.scss" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/scss/custom/mixins/_icon.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/custom/mixins/_modals.scss" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/scss/custom/mixins/_modals.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/custom/mixins/_popover.scss" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/scss/custom/mixins/_popover.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/custom/utilities/_backgrounds.scss" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/scss/custom/utilities/_backgrounds.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/custom/utilities/_floating.scss" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/scss/custom/utilities/_floating.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/custom/utilities/_helper.scss" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/scss/custom/utilities/_helper.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/custom/utilities/_position.scss" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/scss/custom/utilities/_position.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/custom/utilities/_shadows.scss" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/scss/custom/utilities/_shadows.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/custom/utilities/_sizing.scss" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/scss/custom/utilities/_sizing.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/custom/utilities/_spacing.scss" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/scss/custom/utilities/_spacing.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/custom/utilities/_text.scss" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/scss/custom/utilities/_text.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/custom/utilities/_transform.scss" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/scss/custom/utilities/_transform.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/custom/vendor/_bootstrap-datepicker.scss" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/scss/custom/vendor/_bootstrap-datepicker.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/custom/vendor/_headroom.scss" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/scss/custom/vendor/_headroom.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/custom/vendor/_nouislider.scss" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/scss/custom/vendor/_nouislider.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/vendor/bootstrap-datepicker/css/bootstrap-datepicker.css" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/vendor/bootstrap-datepicker/css/bootstrap-datepicker.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/vendor/bootstrap-datepicker/css/bootstrap-datepicker.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/vendor/bootstrap-datepicker/css/bootstrap-datepicker.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/vendor/bootstrap-datepicker/css/bootstrap-datepicker.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/vendor/bootstrap-datepicker/css/bootstrap-datepicker.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/vendor/bootstrap-datepicker/css/bootstrap-datepicker.standalone.css" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/vendor/bootstrap-datepicker/css/bootstrap-datepicker.standalone.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/vendor/bootstrap-datepicker/css/bootstrap-datepicker.standalone.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/vendor/bootstrap-datepicker/css/bootstrap-datepicker.standalone.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/vendor/bootstrap-datepicker/css/bootstrap-datepicker.standalone.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/vendor/bootstrap-datepicker/css/bootstrap-datepicker.standalone.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/vendor/bootstrap-datepicker/css/bootstrap-datepicker3.css" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/vendor/bootstrap-datepicker/css/bootstrap-datepicker3.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/vendor/bootstrap-datepicker/css/bootstrap-datepicker3.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/vendor/bootstrap-datepicker/css/bootstrap-datepicker3.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/vendor/bootstrap-datepicker/css/bootstrap-datepicker3.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/vendor/bootstrap-datepicker/css/bootstrap-datepicker3.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/vendor/bootstrap-datepicker/css/bootstrap-datepicker3.standalone.css" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/vendor/bootstrap-datepicker/css/bootstrap-datepicker3.standalone.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/vendor/bootstrap-datepicker/css/bootstrap-datepicker3.standalone.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/vendor/bootstrap-datepicker/css/bootstrap-datepicker3.standalone.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/vendor/bootstrap-datepicker/css/bootstrap-datepicker3.standalone.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/vendor/bootstrap-datepicker/css/bootstrap-datepicker3.standalone.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/vendor/bootstrap-datepicker/js/bootstrap-datepicker.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/vendor/bootstrap-datepicker/js/bootstrap-datepicker.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/vendor/bootstrap-datepicker/js/bootstrap-datepicker.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/vendor/bootstrap-datepicker/js/bootstrap-datepicker.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker-en-CA.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker-en-CA.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.ar-tn.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.ar-tn.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.ar.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.ar.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.az.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.az.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.bg.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.bg.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.bm.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.bm.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.bn.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.bn.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.br.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.br.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.bs.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.bs.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.ca.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.ca.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.cs.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.cs.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.cy.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.cy.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.da.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.da.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.de.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.de.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.el.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.el.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.en-AU.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.en-AU.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.en-CA.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.en-CA.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.en-GB.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.en-GB.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.en-IE.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.en-IE.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.en-NZ.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.en-NZ.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.en-ZA.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.en-ZA.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.eo.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.eo.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.es.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.es.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.et.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.et.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.eu.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.eu.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.fa.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.fa.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.fi.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.fi.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.fo.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.fo.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.fr-CH.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.fr-CH.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.fr.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.fr.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.gl.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.gl.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.he.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.he.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.hi.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.hi.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.hr.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.hr.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.hu.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.hu.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.hy.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.hy.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.id.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.id.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.is.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.is.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.it-CH.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.it-CH.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.it.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.it.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.ja.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.ja.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.ka.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.ka.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.kh.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.kh.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.kk.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.kk.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.km.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.km.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.ko.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.ko.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.kr.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.kr.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.lt.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.lt.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.lv.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.lv.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.me.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.me.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.mk.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.mk.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.mn.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.mn.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.ms.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.ms.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.nl-BE.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.nl-BE.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.nl.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.nl.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.no.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.no.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.oc.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.oc.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.pl.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.pl.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.pt-BR.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.pt-BR.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.pt.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.pt.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.ro.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.ro.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.rs-latin.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.rs-latin.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.rs.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.rs.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.ru.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.ru.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.si.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.si.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.sk.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.sk.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.sl.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.sl.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.sq.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.sq.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.sr-latin.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.sr-latin.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.sr.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.sr.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.sv.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.sv.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.sw.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.sw.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.ta.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.ta.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.tg.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.tg.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.th.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.th.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.tk.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.tk.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.tr.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.tr.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.uk.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.uk.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.uz-cyrl.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.uz-cyrl.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.uz-latn.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.uz-latn.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.vi.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.vi.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.zh-TW.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.zh-TW.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/vendor/bootstrap/bootstrap.bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/vendor/bootstrap/bootstrap.bundle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/vendor/bootstrap/bootstrap.bundle.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/vendor/bootstrap/bootstrap.bundle.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/vendor/bootstrap/bootstrap.bundle.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/vendor/bootstrap/bootstrap.bundle.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/vendor/bootstrap/bootstrap.bundle.min.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/vendor/bootstrap/bootstrap.bundle.min.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/vendor/bootstrap/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/vendor/bootstrap/bootstrap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/vendor/bootstrap/bootstrap.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/vendor/bootstrap/bootstrap.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/vendor/bootstrap/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/vendor/bootstrap/bootstrap.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/vendor/bootstrap/bootstrap.min.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/vendor/bootstrap/bootstrap.min.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/vendor/font-awesome/css/font-awesome.css" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/vendor/font-awesome/css/font-awesome.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/vendor/font-awesome/css/font-awesome.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/vendor/font-awesome/css/font-awesome.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/vendor/font-awesome/fonts/FontAwesome.otf" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/vendor/font-awesome/fonts/FontAwesome.otf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/vendor/font-awesome/fonts/fontawesome-webfont.eot" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/vendor/font-awesome/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/vendor/font-awesome/fonts/fontawesome-webfont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/vendor/font-awesome/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/vendor/font-awesome/fonts/fontawesome-webfont.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/vendor/font-awesome/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/vendor/font-awesome/fonts/fontawesome-webfont.woff" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/vendor/font-awesome/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/vendor/font-awesome/fonts/fontawesome-webfont.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/vendor/font-awesome/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/vendor/headroom/headroom.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/vendor/headroom/headroom.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/vendor/jquery/jquery.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/vendor/jquery/jquery.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/vendor/nouislider/css/nouislider.css" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/vendor/nouislider/css/nouislider.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/vendor/nouislider/css/nouislider.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/vendor/nouislider/css/nouislider.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/vendor/nouislider/js/nouislider.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/vendor/nouislider/js/nouislider.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/vendor/nouislider/js/nouislider.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/vendor/nouislider/js/nouislider.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/vendor/nucleo/css/nucleo-svg.css" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/vendor/nucleo/css/nucleo-svg.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/vendor/nucleo/css/nucleo.css" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/vendor/nucleo/css/nucleo.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/vendor/nucleo/fonts/nucleo-icons.eot" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/vendor/nucleo/fonts/nucleo-icons.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/vendor/nucleo/fonts/nucleo-icons.svg" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/vendor/nucleo/fonts/nucleo-icons.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/vendor/nucleo/fonts/nucleo-icons.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/vendor/nucleo/fonts/nucleo-icons.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/vendor/nucleo/fonts/nucleo-icons.woff" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/vendor/nucleo/fonts/nucleo-icons.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/vendor/nucleo/fonts/nucleo-icons.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/vendor/nucleo/fonts/nucleo-icons.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/vendor/onscreen/onscreen.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/vendor/onscreen/onscreen.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/vendor/popper/popper.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/vendor/popper/popper.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/vendor/popper/popper.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/vendor/popper/popper.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/documentation.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/documentation.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/landing.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/landing.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/examples/profile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,40 +316,61 @@
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="edienkarte-rtu" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Register.vue" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/src/components/Register.vue">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/docs/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="2" column="11" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
+            <state relative-caret-position="75">
+              <caret line="29" column="39" selection-start-line="29" selection-start-column="39" selection-end-line="29" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/docs/login.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="480">
+              <caret line="130" column="1" selection-start-line="130" selection-start-column="1" selection-end-line="136" selection-end-column="54" />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="register.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/examples/register.html">
+        <entry file="file://$PROJECT_DIR$/docs/register.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="131">
-              <caret line="30" column="20" lean-forward="true" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
+            <state relative-caret-position="250">
+              <caret line="113" column="74" lean-forward="true" selection-start-line="113" selection-start-column="74" selection-end-line="113" selection-end-column="84" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
+      <file leaf-file-name="landing.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/docs/landing.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="563">
-              <caret line="62" column="40" selection-start-line="62" selection-start-column="40" selection-end-line="62" selection-end-column="40" />
+            <state relative-caret-position="266">
+              <caret line="80" column="24" selection-start-line="80" selection-start-column="24" selection-end-line="80" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/examples/login.html">
+      <file leaf-file-name="profile.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/examples/profile.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="428">
-              <caret line="122" column="22" lean-forward="true" selection-start-line="122" selection-start-column="22" selection-end-line="122" selection-end-column="22" />
+            <state relative-caret-position="324">
+              <caret line="274" column="32" selection-start-line="274" selection-start-column="32" selection-end-line="274" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bootstrap.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/docs/assets/css/bootstrap/bootstrap.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="4733" column="12" selection-start-line="4733" selection-start-column="12" selection-end-line="4733" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -80,7 +403,15 @@
       <find>process.env.HOST</find>
       <find>sign up</find>
       <find>log in</find>
+      <find>server/node_modules/eslint/CHANGELOG.md</find>
+      <find>{%</find>
       <find>sign-in-alt</find>
+      <find>example</find>
+      <find>Awes</find>
+      <find>badge-gre</find>
+      <find>plus</find>
+      <find>awsome</find>
+      <find>we made</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -107,6 +438,11 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/examples/register.html" />
         <option value="$PROJECT_DIR$/examples/login.html" />
+        <option value="$PROJECT_DIR$/server/node_modules/eslint/CHANGELOG.md" />
+        <option value="$PROJECT_DIR$/docs/index.html" />
+        <option value="$PROJECT_DIR$/docs/login.html" />
+        <option value="$PROJECT_DIR$/docs/register.html" />
+        <option value="$PROJECT_DIR$/docs/landing.html" />
       </list>
     </option>
   </component>
@@ -158,42 +494,42 @@
             <path>
               <item name="edienkarte-rtu" type="b2602c69:ProjectViewProjectNode" />
               <item name="edienkarte-rtu" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="docs" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="edienkarte-rtu" type="b2602c69:ProjectViewProjectNode" />
               <item name="edienkarte-rtu" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="docs" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="edienkarte-rtu" type="b2602c69:ProjectViewProjectNode" />
               <item name="edienkarte-rtu" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="docs" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="edienkarte-rtu" type="b2602c69:ProjectViewProjectNode" />
               <item name="edienkarte-rtu" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="docs" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+              <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="edienkarte-rtu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="edienkarte-rtu" type="462c0819:PsiDirectoryNode" />
+              <item name="docs" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+              <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
+              <item name="bootstrap.css" type="620a8d5e:NestingTreeNode" />
             </path>
             <path>
               <item name="edienkarte-rtu" type="b2602c69:ProjectViewProjectNode" />
               <item name="edienkarte-rtu" type="462c0819:PsiDirectoryNode" />
               <item name="examples" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="edienkarte-rtu" type="b2602c69:ProjectViewProjectNode" />
-              <item name="edienkarte-rtu" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="edienkarte-rtu" type="b2602c69:ProjectViewProjectNode" />
-              <item name="edienkarte-rtu" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -208,6 +544,11 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.SCSS" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/docs" />
+    </key>
   </component>
   <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
     <UpdatedFiles>
@@ -344,7 +685,7 @@
       <updated>1573674034071</updated>
       <workItem from="1573674038007" duration="7243000" />
       <workItem from="1573721123925" duration="8714000" />
-      <workItem from="1574102906339" duration="3084000" />
+      <workItem from="1574102906339" duration="5594000" />
     </task>
     <task id="LOCAL-00001" summary="Cleared index page and added new pages">
       <created>1574110015656</created>
@@ -353,17 +694,25 @@
       <option name="project" value="LOCAL" />
       <updated>1574110015656</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Cleared index page and added new pages">
+      <created>1574110670559</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1574110670559</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19041000" />
+    <option name="totallyTimeSpent" value="21551000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info active="true" anchor="bottom" id="Messages" visible="true" weight="0.32969698" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -371,13 +720,13 @@
       <window_info id="npm" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.34424242" />
       <window_info id="Gulp" order="2" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23175965" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49909583" visible="true" weight="0.23175965" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="Favorites" order="2" sideWeight="0.50090414" side_tool="true" visible="true" weight="0.23175965" />
       <window_info anchor="bottom" id="TypeScript" order="7" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -419,7 +768,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Cleared index page and added new pages" />
-    <option name="LAST_COMMIT_MESSAGE" value="Cleared index page and added new pages" />
+    <MESSAGE value="aiziet" />
+    <option name="LAST_COMMIT_MESSAGE" value="aiziet" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -427,215 +777,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/client/src/components/Register.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="11" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="8" lean-forward="true" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/package-lock.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268923">
-          <caret line="15819" column="5" selection-start-line="15819" selection-start-column="5" selection-end-line="15819" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="e#140#161#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/node_modules/vuetify/dist/vuetify.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="5" column="20040" selection-start-line="5" selection-start-column="20036" selection-end-line="5" selection-end-column="20040" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/services/authenticationService.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="15" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/controllers/AuthenticationController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/policies/AuthenticationControllerPolicy.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="24" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/components/Register.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/services/authenticationService.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/routes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/models/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="22" lean-forward="true" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/App.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/router/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/models/user.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.es2015.core.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="98" column="26" lean-forward="true" selection-start-line="98" selection-start-column="26" selection-end-line="98" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/node_modules/@types/node/fs.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="973" column="45" selection-start-line="973" selection-start-column="45" selection-end-line="973" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/config/config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/services/api.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/router/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/App.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/models/user.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="119">
-            <caret line="7" column="32" lean-forward="true" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/models/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="32" lean-forward="true" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/controllers/AuthenticationController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/policies/AuthenticationControllerPolicy.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="24" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/phpstorm.jar!/resources/html5-schema/html5/block.rnc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="244" column="16" selection-start-line="244" selection-start-column="16" selection-end-line="244" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client/src/services/authenticationService.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -719,6 +860,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/server/node_modules/eslint/CHANGELOG.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="266">
+            <caret line="1770" column="42" selection-start-line="1770" selection-start-column="42" selection-end-line="1770" selection-end-column="42" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/client/src/components/Register.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -726,24 +877,137 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/docs/documentation.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="563">
-          <caret line="62" column="40" selection-start-line="62" selection-start-column="40" selection-end-line="62" selection-end-column="40" />
+        <state relative-caret-position="-210" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/assets/js/argon.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/assets/js/argon.min.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/assets/css/argon.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/assets/css/bootstrap/bootstrap.min.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/assets/css/bootstrap/bootstrap-grid.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/assets/css/bootstrap/bootstrap-reboot.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/assets/css/bootstrap/bootstrap-grid.min.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/assets/css/bootstrap/bootstrap-reboot.min.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/assets/css/argon.min.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/assets/img/ill/ill-2.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/assets/img/brand/blue.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/assets/img/brand/white.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/assets/img/brand/favicon.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/assets/img/brand/creativetim-white-slim.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/assets/img/icons/common/github.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/assets/img/icons/common/google.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/assets/img/theme/landing.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/assets/img/theme/profile.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/assets/img/theme/promo-1.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/assets/img/theme/team-1-800x800.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/assets/img/theme/team-2-800x800.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/assets/img/theme/team-3-800x800.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/assets/img/theme/team-4-800x800.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/assets/img/theme/img-1-1200x1000.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/assets/img/theme/img-2-1200x1000.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/assets/scss/custom/mixins/_icon.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/assets/scss/custom/mixins/_alert.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/assets/scss/custom/mixins/_badge.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/assets/scss/custom/mixins/_forms.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="130" column="1" selection-start-line="130" selection-start-column="1" selection-end-line="136" selection-end-column="54" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/examples/register.html">
+    <entry file="file://$PROJECT_DIR$/docs/register.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="30" column="20" lean-forward="true" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
+        <state relative-caret-position="250">
+          <caret line="113" column="74" lean-forward="true" selection-start-line="113" selection-start-column="74" selection-end-line="113" selection-end-column="84" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/examples/login.html">
+    <entry file="file://$PROJECT_DIR$/docs/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="428">
-          <caret line="122" column="22" lean-forward="true" selection-start-line="122" selection-start-column="22" selection-end-line="122" selection-end-column="22" />
+        <state relative-caret-position="75">
+          <caret line="29" column="39" selection-start-line="29" selection-start-column="39" selection-end-line="29" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/landing.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="80" column="24" selection-start-line="80" selection-start-column="24" selection-end-line="80" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/profile.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="274" column="32" selection-start-line="274" selection-start-column="32" selection-end-line="274" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/assets/css/bootstrap/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="4733" column="12" selection-start-line="4733" selection-start-column="12" selection-end-line="4733" selection-end-column="12" />
         </state>
       </provider>
     </entry>
