@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="450a4146-3c64-4a04-8659-406b97228735" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/examples/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/examples/register.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -49,8 +46,8 @@
       <file leaf-file-name="login.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/examples/login.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="82">
-              <caret line="38" column="46" selection-start-line="38" selection-start-column="46" selection-end-line="38" selection-end-column="46" />
+            <state relative-caret-position="428">
+              <caret line="122" column="22" lean-forward="true" selection-start-line="122" selection-start-column="22" selection-end-line="122" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -347,12 +344,20 @@
       <updated>1573674034071</updated>
       <workItem from="1573674038007" duration="7243000" />
       <workItem from="1573721123925" duration="8714000" />
-      <workItem from="1574102906339" duration="2726000" />
+      <workItem from="1574102906339" duration="3084000" />
     </task>
+    <task id="LOCAL-00001" summary="Cleared index page and added new pages">
+      <created>1574110015656</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1574110015656</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18683000" />
+    <option name="totallyTimeSpent" value="19041000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -411,6 +416,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Cleared index page and added new pages" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cleared index page and added new pages" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -733,8 +742,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/examples/login.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="82">
-          <caret line="38" column="46" selection-start-line="38" selection-start-column="46" selection-end-line="38" selection-end-column="46" />
+        <state relative-caret-position="428">
+          <caret line="122" column="22" lean-forward="true" selection-start-line="122" selection-start-column="22" selection-end-line="122" selection-end-column="22" />
         </state>
       </provider>
     </entry>
