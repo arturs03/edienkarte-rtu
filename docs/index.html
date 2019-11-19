@@ -36,23 +36,20 @@
 <header class="header-global">
     <nav id="navbar-main" class="navbar navbar-main navbar-expand-lg navbar-transparent navbar-light headroom">
         <div class="container">
-            <a class="navbar-brand mr-lg-5" href="./index.html">Ģenerātors</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar_global"
-                    aria-controls="navbar_global" aria-expanded="false" aria-label="Toggle navigation">
+            <a class="navbar-brand mr-lg-5" href="index.html">Ģenerātors</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar_global" aria-controls="navbar_global" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="navbar-collapse collapse" id="navbar_global">
                 <div class="navbar-collapse-header">
                     <div class="row">
                         <div class="col-6 collapse-brand">
-                            <a href="./index.html">
-                                <img alt="image" src="./assets/img/brand/blue.png">
+                            <a href="../index.html">
+                                <img src="../docs/assets/img/brand/blue.png" alt="brand">
                             </a>
                         </div>
                         <div class="col-6 collapse-close">
-                            <button type="button" class="navbar-toggler" data-toggle="collapse"
-                                    data-target="#navbar_global" aria-controls="navbar_global" aria-expanded="false"
-                                    aria-label="Toggle navigation">
+                            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar_global" aria-controls="navbar_global" aria-expanded="false" aria-label="Toggle navigation">
                                 <span></span>
                                 <span></span>
                             </button>
@@ -62,14 +59,36 @@
                 <ul class="navbar-nav navbar-nav-hover align-items-lg-center">
                     <li class="nav-item dropdown">
                         <a href="#" class="nav-link" data-toggle="dropdown" role="button">
-                            <span class="nav-link-inner--text"><i class="fa fa-user mr-2"></i>Profils</span>
+                            <i class="ni ni-ui-04 d-lg-none"></i>
+                            <span class="nav-link-inner--text">PIEDĀVĀJUMI</span>
                         </a>
-                        <div class="dropdown-menu">
-                            <a href="./login.html" class="dropdown-item"><i class="fa fa-sign-in mr-2"></i>Autorizēties</a>
-                            <a href="./register.html" class="dropdown-item"><i class="fa fa-plus mr-2"></i>Reģistrēties</a>
+                        <div class="dropdown-menu dropdown-menu-xl">
+                            <div class="dropdown-menu-inner">
+                                <a href="#" target="blank" rel="noopener noreferrer" class="media d-flex align-items-center">
+                                    <div class="icon icon-shape bg-gradient-success rounded-circle text-white">
+                                        <i class="ni ni-user-run"></i>
+                                    </div>
+                                    <div class="media-body ml-3">
+                                        <h6 class="heading text-primary mb-md-1">Notievēt</h6>
+                                        <p class="description d-none d-md-inline-block mb-0">Uzzināt labākās diētas receptes ar mērķi notievēt.</p>
+                                    </div>
+                                </a>
+                                <a href="uznemt-masu.html" target="blank" rel="noopener noreferrer" class="media d-flex align-items-center">
+                                    <div class="icon icon-shape bg-gradient-warning rounded-circle text-white">
+                                        <i class="fa fa-hand-rock-o"></i>
+                                    </div>
+                                    <div class="media-body ml-3">
+                                        <h5 class="heading text-warning mb-md-1">Uzņemt Masu</h5>
+                                        <p class="description d-none d-md-inline-block mb-0">Uzzināt labākās stratēģijas kā uzņemt kalorijas</p>
+                                    </div>
+                                </a>
+                            </div>
                         </div>
                     </li>
-
+                </ul>
+                <ul class="navbar-nav ml-lg-auto">
+                    <li><a href="login.html"><i class="fa fa-sign-in mr-4 text-white" style="font-size: 20px"></i></a></li>
+                    <li><a href="./register.html"><i class="fa fa-user-plus text-white" style="font-size: 20px"></i></a></li>
                 </ul>
             </div>
         </div>
@@ -115,24 +134,24 @@
                     <div class="col-lg-12">
                         <h2 class="text-center mb-5">Kāds Ir Tavs Mērķis?</h2>
                         <div class="row row-grid">
-                            <div class="col-lg-4">
-                                <div class="card card-lift--hover shadow border-0">
-                                    <div class="card-body py-5">
-                                        <div class="icon icon-shape icon-shape-primary rounded-circle mb-4">
-                                            <i class="ni ni-favourite-28"></i>
-                                        </div>
-                                        <h6 class="text-primary text-uppercase">Sabalansēts uzturs ar noteiktu ēdienu</h6>
-                                        <p class="description mt-3">Šī programma ļoti labi der personām, kas vēlas uzturēt sevi labā fiziskā un garīgā formā. Šīs uztura režīms ir ieteicams katram.</p>
-                                        <div>
-                                            <span class="badge badge-pill badge-primary">Aktīvs</span>
-                                            <span class="badge badge-pill badge-primary">Adoptīvs</span>
-                                            <span class="badge badge-pill badge-primary">Vienmērīgs</span>
-                                        </div>
-                                        <a href="#" class="btn btn-primary mt-4">Uzzināt vairāk</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-4">
+                            <!--<div class="col-lg-4">-->
+                                <!--<div class="card card-lift&#45;&#45;hover shadow border-0">-->
+                                    <!--<div class="card-body py-5">-->
+                                        <!--<div class="icon icon-shape icon-shape-primary rounded-circle mb-4">-->
+                                            <!--<i class="ni ni-favourite-28"></i>-->
+                                        <!--</div>-->
+                                        <!--<h6 class="text-primary text-uppercase">Sabalansēts uzturs ar noteiktu ēdienu</h6>-->
+                                        <!--<p class="description mt-3">Šī programma ļoti labi der personām, kas vēlas uzturēt sevi labā fiziskā un garīgā formā. Šīs uztura režīms ir ieteicams katram.</p>-->
+                                        <!--<div>-->
+                                            <!--<span class="badge badge-pill badge-primary">Aktīvs</span>-->
+                                            <!--<span class="badge badge-pill badge-primary">Adoptīvs</span>-->
+                                            <!--<span class="badge badge-pill badge-primary">Vienmērīgs</span>-->
+                                        <!--</div>-->
+                                        <!--<a href="#" class="btn btn-primary mt-4">Uzzināt vairāk</a>-->
+                                    <!--</div>-->
+                                <!--</div>-->
+                            <!--</div>-->
+                            <div class="col-lg-6">
                                 <div class="card card-lift--hover shadow border-0">
                                     <div class="card-body py-5">
                                         <div class="icon icon-shape icon-shape-success rounded-circle mb-4">
@@ -149,7 +168,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-4">
+                            <div class="col-lg-6">
                                 <div class="card card-lift--hover shadow border-0">
                                     <div class="card-body py-5">
                                         <div class="icon icon-shape icon-shape-warning rounded-circle mb-4">
