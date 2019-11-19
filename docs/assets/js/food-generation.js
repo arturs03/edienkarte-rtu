@@ -1,7 +1,7 @@
 var recepies =
     [
         {
-            "recepieTitle": "Omlete ar tosermaizi un sulu",
+            "recepieTitle": "Omlete ar tostermaizi un sulu",
             "recepieDescription": "3 olas, piens 100ml, 2 tosermaizes + sviests, sula pēc jūsu izvēles",
             "recepieBenefits": {
                 "gains": 90,
@@ -22,6 +22,17 @@ var recepies =
             "recepieImage": "https://www.medicalnewstoday.com/content/images/articles/324/324956/close-up-of-a-plate-of-food.jpg",
             "isVegan": false,
         },
+        {
+            "recepieTitle": "Vistas karbonāde ar griķiem un zaļumiem",
+            "recepieDescription": "200 g vistas filejas, 1 olas, 2 ēd. k. miltu, krējums, pēc izvēles 1 paciņas griķu, salāt lapas ar tomātiem un gurķiem",
+            "recepieBenefits": {
+                "gains": 70,
+                "vitamins": 0,
+                "fats": 30
+            },
+            "recepieImage": "http://media.gardedis.lv/cache/eb/f6/ebf6b337d75256431b4f76d4061177d4.jpg",
+            "isVegan": false,
+        },
     ];
 
 function generateRecepie() {
@@ -38,6 +49,8 @@ function generateRecepie() {
         }
         dati[i] = $('#generator-params')[0][i].value;
     }
+
+    $('#generatorModal').modal('hide');
 
     var recepieNode = '';
 
@@ -84,8 +97,12 @@ function generateRecepie() {
             </section>
         `;
     }
-    console.log(recepieNode);
-    $('#recepies').append(recepieNode)
+
+    $('#generatorModal').on('hidden.bs.modal', function (e) {
+        $('#recepies').html(recepieNode);
+        $(window).scrollTop($('#recepies').offset().top);
+    });
+
 
     // localStorage.setItem("dati", dati);
 }

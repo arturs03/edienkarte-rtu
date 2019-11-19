@@ -101,13 +101,13 @@
                             <p class="lead  text-white">Mēs piedāvāsim Tev receptes, kas palīdzēs Tev izvēlēties pareizos ēdienus.</p>
                             <div class="btn-wrapper">
                                 <!-- Button trigger modal -->
-                                <button type="button" class="btn btn-primary btn-info" data-toggle="modal" data-target="#exampleModal">
+                                <button type="button" class="btn btn-primary btn-info" data-toggle="modal" data-target="#generatorModal">
                                     <span class="btn-inner--icon"><i class="ni ni-bullet-list-67"></i></span>
                                     Uzzināt savu recepti
                                 </button>
 
                                 <!-- Modal -->
-                                <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal fade" id="generatorModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
                                     <div class="modal-dialog modal-dialog-centered" role="document">
                                         <div class="modal-content">
                                             <div class="modal-header">
@@ -147,8 +147,11 @@
                                                             <div class="input-group-prepend">
                                                                 <span class="input-group-text"><i class="fa fa-cutlery"></i></span>
                                                             </div>
-                                                            <span class="m-auto text-muted">Veģetārietis</span>
-                                                            <input class="form-control ml-3" type="checkbox" value=0>
+                                                            <p class="my-auto mr-4 text-muted" style="font-size:15px">Veģetārietis</p>
+                                                            <div class="custom-control custom-checkbox my-auto">
+                                                                <input class="custom-control-input" id="customCheck1" type="checkbox">
+                                                                <label class="custom-control-label" for="customCheck1"></label>
+                                                            </div>
                                                         </div>
                                                     </div>
                                                     <p class="m-0 mt-2 text-danger form-error"></p>
@@ -175,12 +178,6 @@
         </section>
     </div>
 
-    <div class="py-4" id="recepies">
-        <!--<span class="badge badge-pill badge-success">Champ</span>-->
-        <!--<span class="badge badge-pill badge-success">Kalorijas A+</span>-->
-        <!--<span class="badge badge-pill badge-danger">Dārzeņi C</span>-->
-
-    </div>
     <!-- GET MOTIVATED PART (make it so it desapears after generater button CTA) -->
     <section class="section section-lg" style="padding-top: 10px;">
       <div class="container">
@@ -238,6 +235,13 @@
         </div>
       </div>
     </section>
+
+    <div class="py-4" id="recepies">
+        <!--<span class="badge badge-pill badge-success">Champ</span>-->
+        <!--<span class="badge badge-pill badge-success">Kalorijas A+</span>-->
+        <!--<span class="badge badge-pill badge-danger">Dārzeņi C</span>-->
+
+    </div>
 <!-- GET MOTIVATED PART (make it so it desapears after generater button CTA) -->
 </main>
 <!-- Core -->
