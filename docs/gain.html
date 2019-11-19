@@ -97,7 +97,7 @@
                 <div class="col px-0">
                     <div class="row">
                         <div class="col-lg-6">
-                            <h1 class="display-3  text-white">Gribi notievēt,<span>bet nezini ar ko sākt?</span></h1>
+                            <h1 class="display-3  text-white">Vēlies uzņemt masu,<span>bet negribi ēst <i>Fast Food?</i></span></h1>
                             <p class="lead  text-white">Mēs piedāvāsim Tev receptes, kas palīdzēs Tev izvēlēties pareizos ēdienus.</p>
                             <div class="btn-wrapper">
                                 <!-- Button trigger modal -->
@@ -111,17 +111,51 @@
                                     <div class="modal-dialog modal-dialog-centered" role="document">
                                         <div class="modal-content">
                                             <div class="modal-header">
-                                                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                                <h5 class="modal-title" id="exampleModalLabel">Recepšu ģenerātora forma</h5>
                                                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                                     <span aria-hidden="true">&times;</span>
                                                 </button>
                                             </div>
                                             <div class="modal-body">
-                                                ...
-                                            </div>
-                                            <div class="modal-footer">
-                                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                                                <button type="button" class="btn btn-primary">Save changes</button>
+                                                <form role="form" id="generator-params">
+                                                    <div class="form-group mb-3">
+                                                        <div class="input-group input-group-alternative">
+                                                            <div class="input-group-prepend">
+                                                                <span class="input-group-text"><i class="ni ni-ruler-pencil"></i></span>
+                                                            </div>
+                                                            <input class="form-control" placeholder="Augums (cm)" type="number" min="140" max="240">
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <div class="input-group input-group-alternative">
+                                                            <div class="input-group-prepend">
+                                                                <span class="input-group-text"><i class="fa fa-child"></i></span>
+                                                            </div>
+                                                            <input class="form-control" placeholder="Svars (kg)" type="number" min="30" max="200">
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <div class="input-group input-group-alternative">
+                                                            <div class="input-group-prepend">
+                                                                <span class="input-group-text"><i class="ni ni-user-run"></i></span>
+                                                            </div>
+                                                            <input class="form-control" placeholder="Treniņi nedēļā" type="number" min="0" max="15">
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <div class="input-group input-group-alternative">
+                                                            <div class="input-group-prepend">
+                                                                <span class="input-group-text"><i class="fa fa-cutlery"></i></span>
+                                                            </div>
+                                                            <span class="m-auto text-muted">Veģetārietis</span>
+                                                            <input class="form-control ml-3" type="checkbox" value=0>
+                                                        </div>
+                                                    </div>
+                                                    <p class="m-0 mt-2 text-danger form-error"></p>
+                                                    <div class="text-center">
+                                                        <button type="button" class="btn btn-primary my-4" onclick="generateRecepie()">Ģenerēt</button>
+                                                    </div>
+                                                </form>
                                             </div>
                                         </div>
                                     </div>
@@ -154,6 +188,8 @@
 <script src="./assets/vendor/headroom/headroom.min.js"></script>
 <!-- Argon JS -->
 <script src="./assets/js/argon.js?v=1.1.0"></script>
+<!-- Food generator JS -->
+<script src="./assets/js/food-generation.js"></script>
 </body>
 
 </html>
