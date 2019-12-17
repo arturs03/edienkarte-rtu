@@ -140,7 +140,7 @@ function generateRecepie(motivation) {
         }
 
         recepieNode += `
-            <section class="section py-3">
+            <section class="section py-3 recepie-node">
                 <div class="container">
                     <div class="card bg-gradient-white shadow-lg border-0">
                         <div class="p-5">
@@ -184,6 +184,14 @@ function generateRecepie(motivation) {
             </section>
         `;
     }
+
+    if (!$(recepieNode).hasClass('recepie-node')) {
+        recepieNode += `
+            <div class="text-center alert alert-info mx-auto" role="alert" style="width: 80%">
+                <strong>Atvainojiet</strong> receptes pagaidām nav pieejamas pēc jūsu ievadītajiem kritērijiem!
+            </div>
+        `
+    } 
 
     $('#generatorModal').on('hidden.bs.modal', function (e) {
         $('#recepies').html(recepieNode);
