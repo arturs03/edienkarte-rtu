@@ -97,7 +97,6 @@ function generateRecepie(motivation) {
         }
     }
 
-    console.log(dati);
 
     $('#generatorModal').modal('hide');
 
@@ -105,10 +104,8 @@ function generateRecepie(motivation) {
     for (let i = 0; i < recepies.length; i++) {
         let recepie = recepies[i];
 
-            console.log(recepie.isVegan);
         // checks if recepie is equal to motivation and food is/not vegan
         if (recepie.result !== motivation) {
-            console.log('daun');
             continue;
         }
 
