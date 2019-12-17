@@ -10,7 +10,8 @@ var recepies =
             },
             "recepieImage": "https://cdn.santa.lv/media/2019/01/0/large/774f613b276e.jpg",
             "isVegan": true,
-            "result": "gain"
+            "result": "gain",
+            "cal": 500
         },
         {
             "recepieTitle": "Saldskābā vistas fileja ar rīsiem",
@@ -22,7 +23,8 @@ var recepies =
             },
             "recepieImage": "https://www.medicalnewstoday.com/content/images/articles/324/324956/close-up-of-a-plate-of-food.jpg",
             "isVegan": false,
-            "result": "gain"
+            "result": "gain",
+            "cal": 1100
         },
         {
             "recepieTitle": "Vistas karbonāde ar griķiem un zaļumiem",
@@ -34,7 +36,8 @@ var recepies =
             },
             "recepieImage": "http://media.gardedis.lv/cache/eb/f6/ebf6b337d75256431b4f76d4061177d4.jpg",
             "isVegan": false,
-            "result": "gain"
+            "result": "gain",
+            "cal": 800
         },
         {
             "recepieTitle": "Biezpiena plācenīši",
@@ -46,7 +49,8 @@ var recepies =
             },
             "recepieImage": "http://www.brown-sugar.lv/images/products/kulinarija/pankukas/biezpiena-placenisi-ar-ievarijumu-un-krejumu-2-gab/th/700x700_6/biezpienaplacenisi1.jpg",
             "isVegan": true,
-            "result": "gain"
+            "result": "gain",
+            "cal": 650
         },
         {
             "recepieTitle": "Franču siera zupa ar vistu",
@@ -58,7 +62,8 @@ var recepies =
             },
             "recepieImage": "http://media.gardedis.lv/cache/b0/ab/b0ab7eacb24001015dc120a180e2f342.jpg",
             "isVegan": false,
-            "result": "gain"
+            "result": "gain",
+            "cal": 1200
         },
         {
             "recepieTitle": "Klasiskie grieķu salāti",
@@ -70,7 +75,8 @@ var recepies =
             },
             "recepieImage": "http://www.dzivei.lv/wp-content/uploads/2018/06/grieku_salati.jpg",
             "isVegan": true,
-            "result": "loss"
+            "result": "loss",
+            "cal": 600
         }
     ];
 
@@ -107,7 +113,7 @@ function generateRecepie(motivation) {
 
     $('#generatorModal').modal('hide');
 
-    var recepieNode = `<h3 class="text-center ">Nepieciešamo kaloriju daudzums dienā - ${calories}</h3>`;
+    var recepieNode = `<h3 class="text-center ">Nepieciešamo kaloriju daudzums dienā - ${Math.round(calories)}</h3>`;
 
     for (let i = 0; i < recepies.length; i++) {
         let recepie = recepies[i];
@@ -151,7 +157,6 @@ function generateRecepie(motivation) {
                                       
                                         ${recepieTypeNode}
                                     </h3>
-
                                     <a class="btn btn-primary btn-sm mt-4" data-toggle="collapse" href="#${id}" role="button" aria-expanded="false" aria-controls="collapseExample">
                                         Sastāv daļas  <i class="fa fa-plus"></i>
                                     </a>
@@ -175,6 +180,10 @@ function generateRecepie(motivation) {
                                 <div class="col-12 col-md-4">
                                     <div class="card bg-default shadow border-0">
                                         <img src="${recepie.recepieImage}" rel="noopener nofollower" class="card-img-top" alt="image">
+                                    </div>
+
+                                    <div class="w-100 text-center">
+                                        <span class="badge badge-pill badge-secondary mf-4">${recepie.cal} kcal</span>
                                     </div>
                                 </div>
                             </div>
