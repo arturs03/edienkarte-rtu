@@ -20,7 +20,7 @@ var recepies =
                 "fats": 10
             },
             "recepieImage": "https://www.medicalnewstoday.com/content/images/articles/324/324956/close-up-of-a-plate-of-food.jpg",
-            "isVegan": false,
+            "isVegan": true,
         },
         {
             "recepieTitle": "Vistas karbonāde ar griķiem un zaļumiem",
