@@ -87,12 +87,6 @@ function generateRecepie() {
     $('#generatorModal').modal('hide');
 
     var recepieNode = '';
-
-
-    for(var x = 0; x < recepies.length; x++){
-        console.log(recepies[x].recepieBenefits);
-    }
-
     for (let i = 0; i < recepies.length; i++) {
         let id = recepies[i].recepieTitle.replace(/[^a-zA-Z ]/g, "").replace(/ /g,"-");
         recepieNode += `
