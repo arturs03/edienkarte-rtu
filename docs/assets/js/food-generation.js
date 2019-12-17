@@ -98,9 +98,17 @@ function generateRecepie(motivation) {
     }
 
 
+    // height + weight - age
+    let calories = dati[0] * 5 + dati[1] * 12 -  dati[2] * 3.9
+
+    if (motivation === 'gain') {
+        calories += 1000
+    }
+
     $('#generatorModal').modal('hide');
 
-    var recepieNode = '';
+    var recepieNode = `<h3 class="text-center ">Nepieciešamo kaloriju daudzums dienā - ${calories}</h3>`;
+
     for (let i = 0; i < recepies.length; i++) {
         let recepie = recepies[i];
 
