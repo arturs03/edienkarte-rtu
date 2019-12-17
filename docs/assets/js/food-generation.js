@@ -21,8 +21,8 @@ var recepies =
                 "fats": 10
             },
             "recepieImage": "https://www.medicalnewstoday.com/content/images/articles/324/324956/close-up-of-a-plate-of-food.jpg",
-            "isVegan": true,
-            "result": "loss"
+            "isVegan": false,
+            "result": "gain"
         },
         {
             "recepieTitle": "Vistas karbonāde ar griķiem un zaļumiem",
@@ -109,11 +109,27 @@ function generateRecepie(motivation) {
             continue;
         }
 
-        if (recepie.isVegan == dati[3]) {
+        if (recepie.isVegan !== dati[3]) {
             continue;
         }
 
         let id = recepie.recepieTitle.replace(/[^a-zA-Z ]/g, "").replace(/ /g,"-");
+
+        let recepieTypeNode = '';
+
+        if (recepie.isVegan) {
+            recepieTypeNode = `
+                <div class="badge badge-circle badge-success mr-6">
+                    <span style="font-size:12px">veg</span>
+                </div>
+            `;
+        } else {
+             recepieTypeNode = `
+                <div class="badge badge-circle badge-danger mr-6">
+                    <span style="font-size:12px">gaļ</span>
+                </div>
+            `;
+        }
 
         recepieNode += `
             <section class="section py-3">
@@ -122,7 +138,12 @@ function generateRecepie(motivation) {
                         <div class="p-5">
                             <div class="row align-items-center">
                                 <div class="col-12 col-md-8">
-                                    <h3 class="m-0">${recepie.recepieTitle}</h3>
+                                    <h3 class="m-0">
+                                        ${recepie.recepieTitle}
+                                      
+                                        ${recepieTypeNode}
+                                    </h3>
+
                                     <a class="btn btn-primary btn-sm mt-4" data-toggle="collapse" href="#${id}" role="button" aria-expanded="false" aria-controls="collapseExample">
                                         Sastāv daļas  <i class="fa fa-plus"></i>
                                     </a>
@@ -136,7 +157,7 @@ function generateRecepie(motivation) {
                                     <div class="my-4 my-md-0 mt-md-4">
                                         <div class="progress-wrapper pt-1">
                                             <div class="progress" style="height: 20px;">
-                                                <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: ${recepie.recepieBenefits.gains}%;">Masai uzņemšanai</div>
+                                                <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: ${recepie.recepieBenefits.gains}%;">Masas uzņemšanai</div>
                                                 <div class="progress-bar bg-success" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: ${recepie.recepieBenefits.vitamins}%;">Vitamīni</div>
                                                 <div class="progress-bar bg-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: ${recepie.recepieBenefits.fats}%;">Tauki u.c.</div>
                                             </div>
