@@ -9,7 +9,8 @@ var recepies =
                 "fats": 10
             },
             "recepieImage": "https://cdn.santa.lv/media/2019/01/0/large/774f613b276e.jpg",
-            "isVegan": false,
+            "isVegan": true,
+            "result": "gain"
         },
         {
             "recepieTitle": "Saldskābā vistas fileja ar rīsiem",
@@ -21,6 +22,7 @@ var recepies =
             },
             "recepieImage": "https://www.medicalnewstoday.com/content/images/articles/324/324956/close-up-of-a-plate-of-food.jpg",
             "isVegan": true,
+            "result": "loss"
         },
         {
             "recepieTitle": "Vistas karbonāde ar griķiem un zaļumiem",
@@ -31,7 +33,8 @@ var recepies =
                 "fats": 30
             },
             "recepieImage": "http://media.gardedis.lv/cache/eb/f6/ebf6b337d75256431b4f76d4061177d4.jpg",
-            "isVegan": true,
+            "isVegan": false,
+            "result": "gain"
         },
         {
             "recepieTitle": "Biezpiena plācenīši",
@@ -42,7 +45,8 @@ var recepies =
                 "fats": 10
             },
             "recepieImage": "http://www.brown-sugar.lv/images/products/kulinarija/pankukas/biezpiena-placenisi-ar-ievarijumu-un-krejumu-2-gab/th/700x700_6/biezpienaplacenisi1.jpg",
-            "isVegan": false,
+            "isVegan": true,
+            "result": "gain"
         },
         {
             "recepieTitle": "Franču siera zupa ar vistu",
@@ -54,6 +58,7 @@ var recepies =
             },
             "recepieImage": "http://media.gardedis.lv/cache/b0/ab/b0ab7eacb24001015dc120a180e2f342.jpg",
             "isVegan": false,
+            "result": "gain"
         },
         {
             "recepieTitle": "Klasiskie grieķu salāti",
@@ -65,30 +70,54 @@ var recepies =
             },
             "recepieImage": "http://www.dzivei.lv/wp-content/uploads/2018/06/grieku_salati.jpg",
             "isVegan": true,
+            "result": "loss"
         }
     ];
 
-
-function generateRecepie() {
+/**
+* @var motivation string
+* return recepieNode string
+*/
+function generateRecepie(motivation) {
     let dati = [];
+    let formElements = $('#generator-params .form-group').length;
 
-    console.log($('#generator-params'));
-
-    for (let i = 0; i < 4; i++) {
+    for (let i = 0; i < formElements; i++) {
         let formValue = $('#generator-params')[0][i].value;
 
         if (formValue === "") {
             $('.form-error').html('Lūdzu aizpildiet visus laukus');
             return;
         }
-        dati[i] = $('#generator-params')[0][i].value;
+
+        if ($('#generator-params')[0][i].type == 'checkbox') {
+            dati[i] = $('#generator-params')[0][i].checked;
+        } else {
+            dati[i] = $('#generator-params')[0][i].value;
+        }
     }
+
+    console.log(dati);
 
     $('#generatorModal').modal('hide');
 
     var recepieNode = '';
     for (let i = 0; i < recepies.length; i++) {
-        let id = recepies[i].recepieTitle.replace(/[^a-zA-Z ]/g, "").replace(/ /g,"-");
+        let recepie = recepies[i];
+
+            console.log(recepie.isVegan);
+        // checks if recepie is equal to motivation and food is/not vegan
+        if (recepie.result !== motivation) {
+            console.log('daun');
+            continue;
+        }
+
+        if (recepie.isVegan == dati[3]) {
+            continue;
+        }
+
+        let id = recepie.recepieTitle.replace(/[^a-zA-Z ]/g, "").replace(/ /g,"-");
+
         recepieNode += `
             <section class="section py-3">
                 <div class="container">
@@ -96,30 +125,30 @@ function generateRecepie() {
                         <div class="p-5">
                             <div class="row align-items-center">
                                 <div class="col-12 col-md-8">
-                                    <h3 class="m-0">${recepies[i].recepieTitle}</h3>
+                                    <h3 class="m-0">${recepie.recepieTitle}</h3>
                                     <a class="btn btn-primary btn-sm mt-4" data-toggle="collapse" href="#${id}" role="button" aria-expanded="false" aria-controls="collapseExample">
                                         Sastāv daļas  <i class="fa fa-plus"></i>
                                     </a>
                                     <div class="collapse" id="${id}">
                                         <ol class="lead">
                                             <li>
-                                               ${recepies[i].recepieDescription.replace(/\, /g,"</li><li>")} 
+                                               ${recepie.recepieDescription.replace(/\, /g,"</li><li>")} 
                                             </li>
                                         </ol>
                                     </div>
                                     <div class="my-4 my-md-0 mt-md-4">
                                         <div class="progress-wrapper pt-1">
                                             <div class="progress" style="height: 20px;">
-                                                <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: ${recepies[i].recepieBenefits.gains}%;">Masai uzņemšanai</div>
-                                                <div class="progress-bar bg-success" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: ${recepies[i].recepieBenefits.vitamins}%;">Vitamīni</div>
-                                                <div class="progress-bar bg-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: ${recepies[i].recepieBenefits.fats}%;">Tauki u.c.</div>
+                                                <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: ${recepie.recepieBenefits.gains}%;">Masai uzņemšanai</div>
+                                                <div class="progress-bar bg-success" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: ${recepie.recepieBenefits.vitamins}%;">Vitamīni</div>
+                                                <div class="progress-bar bg-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: ${recepie.recepieBenefits.fats}%;">Tauki u.c.</div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-12 col-md-4">
                                     <div class="card bg-default shadow border-0">
-                                        <img src="${recepies[i].recepieImage}" rel="noopener nofollower" class="card-img-top" alt="image">
+                                        <img src="${recepie.recepieImage}" rel="noopener nofollower" class="card-img-top" alt="image">
                                     </div>
                                 </div>
                             </div>
